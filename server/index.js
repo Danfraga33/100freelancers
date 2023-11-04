@@ -16,7 +16,7 @@ const PORT = 4000
 // ***************************** 
 // Middleware
 
-app.use(express.json())
+app.use(express.json()) 
 app.use('/public', express.static(__dirname + '/public'))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
